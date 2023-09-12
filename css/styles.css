@@ -1,0 +1,55 @@
+:root {
+    --link-color:#fff;
+    --hover:#2196F3;
+    --heading-font-family: 'Roboto', sans-serif;
+   
+}
+body {
+        color:#212121;
+}
+.logo {
+    font-family: 'raleway';
+    font-weight: 700;
+    line-height: 1.17;
+}
+.logo-link {text-decoration: none;}
+.web-logo {
+    color: #2196F3;
+    font-family: 'Oleo Script', 'cursive';
+    font-weight: 400;
+}
+.studiologo {
+    color: #000000;
+    font-weight: 700;
+}
+.global-header a {
+    text-decoration: none;
+}
+.global-header a:link,
+.global-header a:visited {
+    color: inherit;
+}
+.global-header a:hover {
+    color: var(--hover);
+}
+.current {
+    color: greenyellow;
+}
+.filter-button:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+    color: var(--link-color);
+    }
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+} 
+ .button-home {
+    font-weight: 700;
+    font-size: 16px;}
+.button-home:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+    color: var(--link-color)
+ }  
+
