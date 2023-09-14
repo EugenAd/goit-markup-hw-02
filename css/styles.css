@@ -8,6 +8,7 @@
     --default-color:#212121;
     --link-active:#f00;
     --studio-logo-color:#000000;
+    --request-hover-color:#188CE8;
 }
 
 body {
@@ -83,6 +84,8 @@ a.link-navigation.current {
     letter-spacing: 2.64px;
 }
 .button-home {
+    color: var(--white-color);
+    background-color: var(--hover);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -90,7 +93,7 @@ a.link-navigation.current {
       }
 .button-home:hover {
     cursor: pointer;
-    background-color: var(--hover);
+    background-color: var(--request-hover-color);
     color: var(--white-color)
  }  
  .main-section {
